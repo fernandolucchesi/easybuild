@@ -1,2 +1,0 @@
-(this.webpackJsonpralfer=this.webpackJsonpralfer||[]).push([[3],{35:function(e,t,r){"use strict";r.r(t),r.d(t,"default",(function(){return n}));var l=r(0);r(1);function n(){return Object(l.jsx)("iframe",{width:"560",height:"315",src:"https://www.youtube.com/embed/7QSrLm9Mbo4",loading:"lazy",title:"RemoteAgro",allowFullScreen:"allowfullscreen"})}}}]);
-//# sourceMappingURL=3.ca8ec243.chunk.js.map
