@@ -19,6 +19,13 @@ module.exports = {
           800: '#2a4a17',
           DEFAUlT: '#68B83A',
         },
+        easybuild: {
+          lightpurple: '#F7EAFB',
+          purple: '#AC27DB',
+          darkpurple: '#9318BE',
+          blue: '#0099ff',
+          darkblue: '#465FE5',
+        },
       },
     },
   },

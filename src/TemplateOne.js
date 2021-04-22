@@ -41,6 +41,7 @@ export default function TemplateOne() {
           </nav>
         </div>
       </header>
+
       <section className="bg-gray-100 ">
         <div className="flex flex-row ">
           <div className="flex-col w-full p-4 md:w-1/2 center-x">
