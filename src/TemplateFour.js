@@ -386,11 +386,15 @@ export default function TemplateFour() {
             </p>
             <div className="flex">
               <a
-                href="https://api.whatsapp.com/send?phone=5561998568439&amp;text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20mais%20sobre%20os%20servi%C3%A7os%20da%20Remote%20Agro"
+                onClick={() =>
+                  alert(
+                    'Hey AWS, we are just waiting for your startup credits to deploy our app. :)',
+                  )
+                }
                 rel="noopener noreferrer"
                 className="inline-flex px-6 py-4 text-lg text-center text-white border-0 rounded bg-easybuild-purple focus:outline-none hover:bg-easybuild-darkpurple"
               >
-                YES! Let's go!
+                Yes! Let's go!
               </a>
             </div>
           </div>
