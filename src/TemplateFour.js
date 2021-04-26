@@ -39,7 +39,7 @@ export default function TemplateFour() {
               <img
                 loading="lazy"
                 src="img/easybuild-logo-full.png"
-                alt="Easybuild logo"
+                alt="EasyToBuild logo"
                 className="h-8"
               />
             </div>
@@ -410,17 +410,17 @@ export default function TemplateFour() {
             className="flex items-center justify-center font-medium title-font md:justify-start"
             href="/"
           >
-            <span className="ml-3 text-xl">EasyBuild</span>
+            <span className="ml-3 text-xl">EasyToBuild</span>
           </a>
           <p className="py-1 text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 ">
-            © 2021 EasyBuild —
+            © 2021 EasyToBuild —
             <a
               href="https://www.instagram.com/easybuild.site/"
               className="ml-1 "
               rel="noopener noreferrer"
               target="_blank"
             >
-              @easybuild.site
+              @easytobuild.site
             </a>
           </p>
           <span className="inline-flex justify-center sm:ml-auto sm:justify-start ">
@@ -443,7 +443,7 @@ export default function TemplateFour() {
             </a>
             <a
               className="ml-3 "
-              href="https://www.instagram.com/easybuild-purple/"
+              href="https://www.instagram.com/easytobuild"
               rel="noopener noreferrer"
             >
               <svg
