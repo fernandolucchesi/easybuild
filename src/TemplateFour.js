@@ -64,17 +64,9 @@ export default function TemplateFour() {
               className="hidden w-full lg:flex lg:items-center lg:w-auto"
               id="menu"
             >
+              {/*
               <nav>
                 <ul className="items-center justify-between pt-4 lg:flex lg:pt-0">
-                  <li>
-                    <a
-                      className="block px-0 py-3 border-b-2 border-transparent lg:p-4 lg:py-5 hover:text-black"
-                      href="https://blog.easybuild-purple.com.br"
-                      rel="noopener noreferrer"
-                    >
-                      Blog
-                    </a>
-                  </li>
                   <li>
                     <a
                       className="block px-0 py-3 border-b-2 border-transparent lg:p-4 lg:py-5 hover:text-black"
@@ -117,6 +109,7 @@ export default function TemplateFour() {
                   </li>
                 </ul>
               </nav>
+            */}
             </div>
             <a
               href="/"
