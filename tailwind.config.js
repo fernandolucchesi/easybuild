@@ -1,4 +1,5 @@
 module.exports = {
+  mode: 'jit',
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -26,6 +27,9 @@ module.exports = {
           blue: '#0099ff',
           darkblue: '#465FE5',
         },
+      },
+      scale: {
+        '-1': '-1',
       },
     },
   },

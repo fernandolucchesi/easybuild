@@ -47,3 +47,61 @@
     ),
     url('assets/depoimentos-img.jpeg');
 }
+
+.bg-inkspace {
+  background-image: linear-gradient(
+      to top,
+      rgb(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.1) 50%
+    ),
+    url('assets/tattoo2.jpeg');
+}
+
+.bg-cta {
+  background-image: linear-gradient(
+      to top,
+      rgb(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.4) 50%
+    ),
+    url('assets/tattoo3.jpeg');
+}
+
+.btn {
+  @apply justify-center inline-flex items-center px-4 py-2 text-base font-medium leading-6 text-black transition bg-white border border-gray-500 rounded-lg cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 hover:bg-gray-50 focus:bg-gray-100;
+}
+
+.btn:disabled {
+  @apply opacity-50 pointer-events-none;
+}
+
+.btn--sm {
+  @apply px-2 py-1 text-sm;
+}
+
+.btn--cta {
+  @apply uppercase px-12 py-4;
+}
+
+.btn--primary {
+  @apply text-white bg-gray-800 border-transparent hover:bg-gray-900 focus:border-gray-800 focus:bg-gray-900;
+}
+
+.btn--danger {
+  @apply text-white bg-red-600 border-transparent hover:bg-red-700 focus:border-red-800 focus:bg-red-800;
+}
+
+.btn--link {
+  @apply text-blue-700 bg-transparent border-transparent hover:bg-gray-200 focus:ring-blue-700;
+}
+
+.btn--outlined {
+  @apply text-white bg-transparent border-white hover:bg-white hover:text-black focus:border-gray-800 focus:text-black;
+}
+
+.placeholder {
+  @apply h-full bg-gray-200 rounded animate-pulse;
+}
+
+.custom-container {
+  @apply container max-w-screen-lg px-4 mx-auto;
+}
